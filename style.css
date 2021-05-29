@@ -15,7 +15,7 @@ body {
 #loader{
     height:100vh;
     width:var(--viewportWidth);
-    display:flex;
+    display:none;
     justify-content:center ;
     align-items:center ;
     position:fixed;
