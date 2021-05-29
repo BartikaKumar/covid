@@ -75,7 +75,11 @@ body {
 #items>a{
     text-decoration:none;
     color:white;
+    tap-highlight-color:rgba(255, 255, 255, 0.2);
     -webkit-tap-highlight-color:rgba(255,255,255,0.2);
+    -moz-tap-highlight-color:rgba(255,255,255,0.2);
+    -ms-tap-highlight-color:rgba(255,255,255,0.2);
+    -o-tap-highlight-color:rgba(255,255,255,0.2);
 }
 #items>a>div{
     height:50px;
@@ -162,7 +166,11 @@ body {
     padding-bottom:50px;
 }
 .alt{
+    background:linear-gradient(bottom left,#182848,#4b6cb7,#182848);
     background:-webkit-linear-gradient(bottom left,#182848,#4b6cb7,#182848);
+    background:-ms-linear-gradient(bottom left,#182848,#4b6cb7,#182848);
+    background:-moz-linear-gradient(bottom left,#182848,#4b6cb7,#182848);
+    background:-o-linear-gradient(bottom left,#182848,#4b6cb7,#182848);
     color:white;
     padding-top:50px;
     padding-bottom:50px;
@@ -335,7 +343,11 @@ select:hover{
     position:absolute ;
     height:50px;
     width:50px;
+    background:radial-gradient(#ec6f66,#f3a183);
     background:-webkit-radial-gradient(#ec6f66,#f3a183);
+    background:-moz-radial-gradient(#ec6f66,#f3a183);
+    background:-o-radial-gradient(#ec6f66,#f3a183);
+    background:-ms-radial-gradient(#ec6f66,#f3a183);
     color:white;
     content:counter(copenum);
     left:-20px;
