@@ -1,13 +1,15 @@
 *{
     scroll-behavior:smooth;
     box-sizing: border-box;
+    --viewportWidth: calc(100vw - var(--scrollbarWidth));
 }
 body {
     margin:0;
     padding: 0;
     font-family:alegreya sc;
     user-select:none;
-    width:100vw;
+    width:--viewportWidth;
+    overflow-x: hidden;
     counter-reset:copenum;
 }
 #loader{
