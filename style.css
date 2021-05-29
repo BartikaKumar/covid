@@ -456,7 +456,7 @@ select:hover{
     overflow:hidden;
 }
 .fa-facebook, .fa-instagram, .fa-github{
-    font-size:50px;
+    font-size:2em;
     padding:20px;
     border-top:1px solid #ddd;
     border-bottom:1px solid #ddd;
