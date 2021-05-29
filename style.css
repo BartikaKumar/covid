@@ -9,7 +9,6 @@ body {
     font-family:alegreya sc;
     user-select:none;
     width:var(--viewportWidth);
-    overflow-x: hidden;
     counter-reset:copenum;
 }
 #loader{
