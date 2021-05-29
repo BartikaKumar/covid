@@ -455,27 +455,9 @@ select:hover{
 .text{
     padding:20px;
 }
-#follow{
-    text-align:center;
-    margin-bottom:50px;
-}
-#ftitle{
-    font-size:20px;
-    margin-bottom:25px;
-}
 .disablescroll{
     height:100vh;
     overflow:hidden;
-}
-.fa-facebook, .fa-instagram, .fa-github{
-    font-size: 2em;
-    padding:20px;
-    border-top:1px solid #ddd;
-    border-bottom:1px solid #ddd;
-    margin-left:-5px;
-}
-.fa-facebook, .fa-instagram{
-    border-right:1px solid #ddd;
 }
 @media only screen and (orientation: landscape) {
   background:url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
