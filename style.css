@@ -91,8 +91,6 @@ body {
     background-size:cover;
     background-position:50% 50%;
     background-attachment:fixed;
-    z-index:11;
-    position:relative ;
 }
 .ripple{
     height:150px;
@@ -161,8 +159,6 @@ body {
     text-align:center;
     padding-top:50px;
     padding-bottom:50px;
-    z-index: 12;
-    position: relative;
 }
 .alt{
     background:-webkit-linear-gradient(bottom left,#182848,#4b6cb7,#182848);
