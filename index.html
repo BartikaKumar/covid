@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <<link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+       <script src="https://raw.githack.com/BartikaKumar/Popify/main/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
+    </head>
+    <body class="disablescroll">
+
+        <div id="loader">
+
+        </div>
+
+        <div id="header">
+           <div>C<i class="fas fa-virus"></i>vidBasics</div>
+           <div><i class="fa fa-bars" onclick="open_menu()"></i></div>
+       </div>
+       <div id="menu">
+           <div id="upper"><i class="fa fa-times" onclick="close_menu()"></i></div>
+           <div id="items">
+               <a href="#section1"><div>What is COVID-19?</div></a>
+               <a href="#section2"><div>About Corona Virus</div></a>
+               <a href="#section3"><div>Symptoms</div></a>
+               <a href="#section4"><div>Prevention</div></a>
+               <a href="#section5"><div>Treatment</div></a>
+               <a href="#section6"><div>Coping</div></a>
+               <a href="#section7"><div>Statistics (of India)</div></a>
+               <a href="#section8"><div>Statistics (of Indian States)</div></a>
+               <a href="#section9"><div style="border-bottom:none">Credits</div></a>
+           </div>
+       </div>
+
+        <div id="head"></div>
+        <div class="proceed"><i class="fa fa-angle-double-down"></i></div>
+        <div id="section1" class="section">
+        <div id="title">What is COVID-19?</div>
+        <div id="ans">COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona, 'VI' for virus, and 'D' for disease. Formerly, this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.'<br><br><img src="https://i.ibb.co/kM1ysYm/covidinfected.png" height="80%" width="80%" data-aos="fade"></div>
+        </div>
+        <div id="section2" class="section alt">
+            <div id="title">About Corona Virus</div>
+            <div id="ans" style="padding-bottom:100px;clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%)"><div data-aos="zoom-in">Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal. In cows and pigs they cause diarrhea, while in mice they cause hepatitis and encephalomyelitis.</div></div>
+            <div id="ans" style="padding-top:100px;clip-path:polygon(0 15%, 100% 0, 100% 100%, 0 100%)"><div data-aos="zoom-in">Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronaviridae, order Nidovirales, and realm Riboviria. They have characteristic club-shaped spikes that project from their surface, which in electron micrographs create an image reminiscent of the solar corona (an aura of plasma that surrounds the Sun and the other stars), from which the name is derived.</div></div>
+            <img src="https://i.ibb.co/DYNd1BN/file-20200309-167285-1p9yqjv.png" id="virus" data-aos="fade">
+            </div>
+        </div>
+        <div id="section3" class="section">
+            <div id="title">Symptoms</div>
+            <div id="symptoms">
+                <div id="symptom" class="sleft" data-aos="fade-up-left">Dry Cough</div>
+                <div id="symptom" class="sright" data-aos="fade-up-right">Fever</div>
+                <div id="symptom" class="sleft" data-aos="fade-up-left">Tiredness</div>
+                <div id="symptom" class="sright" data-aos="fade-up-right">Aches and pains</div>
+                <div id="symptom" class="sleft" data-aos="fade-up-left">Sore Throat</div>
+                <div id="symptom" class="sright" data-aos="fade-up-right">Headache</div>
+                <div id="symptom" class="sleft" data-aos="fade-up-left">Loss of taste or smell</div>
+                <div id="symptom" class="sright" data-aos="fade-up-right">Difficulty Breathing</div>
+                <div id="symptom" class="sleft" data-aos="fade-up-left">Chest pain</div>
+                <div id="symptom" class="sright" data-aos="fade-up-right">Diarrhoea</div>
+            </div>
+        </div>
+        <div id="section4" class="section alt">
+            <div id="title">Prevention</div>
+            <div id="cont">
+    <div id="carousel">
+    <button onclick="prev()" id="button">&#706</button>
+         <div class="cube">
+<div class="frontside" onclick="alertify({text:'Wear mask in public settings where social distancing is difficult to maintain.',animationIn:'fade-right',animationOut:'fade-right'})"></div>
+<div class="backside" onclick="alertify({text:'Wash your hands often with soap and water for atleast 20 seconds. Use an alcohol-based hand sanitizer that contains atleast 60% alcohol if soap and water are not available.',animationIn:'fade-right',animationOut:'fade-right'})"></div>
+<div class="topside" onclick="alertify({text:'Maintain a distance of atleast 6 feet from other people, especially those who are coughing, sneezing, and have a fever.',animationIn:'fade-right',animationOut:'fade-right'})"></div>
+<div class="bottomside" onclick="alertify({text:'Getting vaccinated will help keep you from getting COVID-19.',animationIn:'fade-right',animationOut:'fade-right'})"></div>
+</div>
+<button onclick="next()" id="button">&#707</button>
+</div>
+    <div id="indicator">
+        <div class="active"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    </div>
+    <div style="line-height:50px">Click on the photos for more info.</div>
+        </div>
+        <div id="section5" class="section">
+            <div id="title">Treatment</div>
+            <div id="ans">FOR INFORMATIONAL PURPOSES ONLY. PLEASE CONSULT YOUR LOCAL MEDICAL AUTHORITY FOR ADVICE.</div>
+            <div id="ans">For mild cases of COVID-19:
+
+            <div id="tlist" data-aos="zoom-in-down">
+                    <div><img src="https://i.ibb.co/KGTk9MH/isolated-room.png" height="100%" width="100%"></div>
+                <div class="text">Isolate yourself in a well-ventilated room.</div>
+            </div>
+             <div id="tlist" data-aos="zoom-in-up">
+                    <div><img src="https://i.ibb.co/6mMrDwF/fluids.png" height="100%" width="100%"></div>
+                <div class="text">Take rest and drink a lot of fluids to maintain adequate hydration.</div>
+            </div>
+                <div id="tlist" data-aos="zoom-in-down">
+                    <div><img src="https://i.ibb.co/7tn2C7Y/no-sharing.png" height="100%" width="100%"></div>
+                <div class="text">Do not share personal belongings with other people in the household.</div>
+            </div>
+            <div id="tlist" data-aos="zoom-in-up">
+                    <div><img src="https://i.ibb.co/Dw9Dhm2/mask.png" height="100%" width="100%"></div>
+                <div class="text">Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled.</div>
+            </div>
+            <div id="tlist" data-aos="zoom-in-down">
+                    <div><img src="https://i.ibb.co/vchjqxK/wash-hands.png" height="100%" width="100%"></div>
+                <div class="text">Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer.</div>
+            </div>
+            <div id="tlist" data-aos="zoom-in-up">
+                    <div><img src="https://i.ibb.co/7gbDXSZ/temperature.png" height="100%" width="100%"></div>
+                <div class="text">Monitor temperature and oxygen saturation with a pulse oximeter daily.</div>
+            </div>
+            <div id="tlist" data-aos="zoom-in-down">
+                    <div><img src="https://i.ibb.co/ckc0fv9/physician.png" height="100%" width="100%"></div>
+                <div class="text">Connect with the treating physician promptly if any deterioration of symptoms is noticed.</div>
+            </div>
+            </div>
+        </div>
+        <div id="section6" class="section alt">
+            <div id="title">Coping</div>
+            <div id="ans" style="padding-bottom:75px; clip-path:polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0)"><div data-aos="zoom-in">Dealing with quarantine and lockdown in this pandamic must be something new and challenging. This new lifestyle and daily routine may affect our mental health, which is why we should take care of it. You can do the following to maintain your mental health-</div></div>
+            <div id="tips">
+            <div id="cope"><div data-aos="zoom-in-right">Practise yoga, meditation, and deep breathing exercise</div></div>
+            <div id="cope"><div data-aos="zoom-in-left">Maintain a Healthy Routine</div></div>
+            <div id="cope"><div data-aos="zoom-in-right">Exercise regularly and have a balanced diet</div></div>
+            <div id="cope"><div data-aos="zoom-in-left">Practise Gratitide</div></div>
+            <div id="cope"><div data-aos="zoom-in-right">Do not believe in every news that comes on social media. Verify the source of the news.</div></div>
+            <div id="cope"><div data-aos="zoom-in-left">Stay connected with friends and family through video calls.</div></div>
+            <div id="cope"><div data-aos="zoom-in-right">Listen to calming music</div></div>
+            </div>
+        </div>
+        <div id="section7" class="section">
+            <div id="title">Statistics (of India)</div>
+            <div id="ans" data-aos="flip-right">
+            <div id="stitle">India</div>
+                <minfo>Total Cases: <info>...</info></minfo>
+                <minfo>Confirmed Indian Cases: <info>...</info></minfo>
+                <minfo>Confirmed Foreign Cases: <info>...</info></minfo>
+                <minfo>Discharged: <info>...</info></minfo>
+                <minfo>Deaths: <info>...</info></minfo>
+                <minfo>Confirmed But Location Unidentified: <info>...</info></minfo>
+                </div>
+        </div>
+        <div id="section8" class="section alt">
+            <div id="title">Statistics (of Indian States)</div>
+            <div id="select">State:
+            <select><option selected disabled>Choose State</option></select>
+            </div>
+            <div id="ans" data-aos="flip-left">
+            <div id="stitle">State</div>
+                <minfo>Total Confirmed Cases: <info>...</info></minfo>
+                <minfo>Confirmed Indian Cases: <info>...</info></minfo>
+                <minfo>Confirmed Foreign Cases: <info>...</info></minfo>
+                <minfo>Discharged: <info>...</info></minfo>
+                <minfo>Deaths: <info>...</info></minfo>
+            </div>
+        </div>
+        <div id="section9" class="section">
+        <div id="credits">
+            Credits:
+            <ul>
+                <li><a href="https://in.pinterest.com/pin/797207571537803555/">Image1</a></li>
+                <li><a href="https://theconversation.com/coronavirus-a-new-type-of-vaccine-using-rna-could-help-defeat-covid-19-133217">Image2</a></li>
+                <li><a href="https://en.m.wikipedia.org/wiki/Coronavirus">Wikipedia</a></li>
+                <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms">WHO</a></li>
+            </ul>
+        </div>
+        <div id="credits">
+            More to view:
+            <ul>
+                <li><a href="https://code.sololearn.com/WYkK74kn529z/?ref=app">Calendar</a></li>
+                <li><a href="https://code.sololearn.com/WDzpL72GhoYZ/?ref=app">Popify Documentation</a></li>
+                <li><a href="https://code.sololearn.com/WjOdKyj46H7s/?ref=app">Swim Fish!</a></li>
+                <li><a href="https://code.sololearn.com/W153Wjsx8oFM/?ref=app">APOD</a></li>
+            </ul>
+        </div>
+        <div id="follow">
+            <div id="ftitle">Follow Me On:</div>
+            <div id="followlinks">
+                <i class="fab fa-facebook" style="color:#4b6cb7;" onclick="window.location.href='https://www.facebook.com/bartika.kumar'"></i>
+                <i class="fab fa-instagram" style="color:#a4d3ee" onclick="window.location.href='https://www.instagram.com/bartikakumar'"></i>
+                <i class="fab fa-github" onclick="window.location.href='https://github.com/BartikaKumar'"></i>
+            </div>
+        </div>
+            <footer>Created with <i class="fa fa-heart"></i> by Bartika Kumar</footer>
+
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+        
+    </body>
+</html>
