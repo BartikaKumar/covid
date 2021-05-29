@@ -26,6 +26,8 @@ window.onload=()=>{
     document.getElementById("header").style="visibility:hidden;opacity:0"
     }
 }
+const scrollbarWidth = window.innerWidth - document.body.clientWidth
+document.body.setProperty("--scrollbarWidth", `${scrollbarWidth}px`)
 document.getElementById("loader").remove()
 alertify({
         html:"Welcome to <b>C<i class='fas fa-virus'></i>vidBasics</b>! I hope you like it.",
