@@ -504,7 +504,7 @@ select:hover{
     flex-direction: column !important;
   }
   #items>a>div{
-    align-items: center !important;
+    justify-content: center !important;
     background: red !important;
   }
   #tlist{
