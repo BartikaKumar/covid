@@ -498,7 +498,7 @@ select:hover{
   #upper{
     display:none !important;
   }
-  #section6 #content{
+  #section6 #content, #section4 #content{
     flex-direction: column !important;
   }
   #items>a>div{
