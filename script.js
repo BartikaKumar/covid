@@ -69,7 +69,6 @@ function prev(){
     activate()
 }
 function openData(){
-/*
     async function getData(){
             var response= await fetch("https://api.rootnet.in/covid19-in/stats/latest");
             if(!response.ok){
@@ -112,6 +111,6 @@ function openData(){
             html:"Unfortunately, an error has occurred while fetching data for the state-wise covid cases.<br>"+error.message,
             })
         })
-        */
+        
 
 }
