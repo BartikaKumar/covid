@@ -501,7 +501,7 @@ select:hover{
     flex-direction: column !important;
   }
   #items>a>div{
-    align-items: center;
-    background: red;
+    align-items: center !important;
+    background: red !important;
   }
 }
