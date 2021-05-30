@@ -508,6 +508,6 @@ select:hover{
     background: red !important;
   }
   #tlist{
-    width:40vw;
+    width:40vw !important;
   }
 }
