@@ -486,6 +486,10 @@ select:hover{
     left:0;
     width:var(--viewportWidth);
   }
+  #sec2cont{
+    display: flex;
+    flex-flow: column;
+  }
   #items>a>div{
     display: inline-block;
   }
