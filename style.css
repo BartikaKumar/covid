@@ -210,6 +210,7 @@ body {
     margin-right:-10px;
     display:flex;
     flex-direction:column;
+    width:var(--viewportWidth);
 }
 #symptom{
     background:#4b6cb7;
