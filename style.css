@@ -493,7 +493,7 @@ select:hover{
   #items>a>div{
     display: inline-block;
   }
-  #items>a:nth-child(1){
+  #upper{
     display:none;
   }
 }
