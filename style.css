@@ -500,4 +500,8 @@ select:hover{
   #section6 #content{
     flex-direction: column !important;
   }
+  #items{
+    display:flex;
+    align-items: center;
+  }
 }
