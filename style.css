@@ -511,7 +511,7 @@ select:hover{
   }
   #symptoms{
     width: 40vw !important;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
   }
 }
