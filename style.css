@@ -53,7 +53,6 @@ body {
 #menu{
     position:fixed;
     width:var(--viewportWidth);
-    position:fixed;
     top:-550px;
     left:0;
     background:rgba(0,0,0,0.5);
@@ -477,5 +476,17 @@ select:hover{
     background-size:cover;
     background-position:50% 50%;
     background-attachment:fixed;
+  }
+  #header{
+    display:none;
+  }
+  #menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width:var(--viewportWidth);
+  }
+  #items>a>div{
+    display: inline-block;
   }
 }
