@@ -465,4 +465,7 @@ select:hover{
   .section{
     flex-direction: column;
   }
+  #head{
+    background: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
+  }
 }
