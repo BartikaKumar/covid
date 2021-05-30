@@ -513,5 +513,7 @@ select:hover{
     width: 40vw !important;
     box-shadow:  20px 20px 60px #d9d9d9,
              -20px -20px 60px #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
   }
 }
