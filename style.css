@@ -164,6 +164,8 @@ body {
     text-align:center;
     padding-top:50px;
     padding-bottom:50px;
+    display:flex;
+    flex-direction: row;
 }
 .alt{
     background:linear-gradient(bottom left,#182848,#4b6cb7,#182848);
@@ -459,8 +461,8 @@ select:hover{
     height:100vh;
     overflow:hidden;
 }
-@media only screen and (orientation: landscape) {
-  #head{
-    background:url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
-  }  
+@media (max-width:800px){
+  .section{
+    flex-direction: column;
+  }
 }
