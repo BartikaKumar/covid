@@ -504,4 +504,7 @@ select:hover{
     align-items: center !important;
     background: red !important;
   }
+  #tlist{
+    width:40vw;
+  }
 }
