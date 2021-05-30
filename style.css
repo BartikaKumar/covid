@@ -509,5 +509,6 @@ select:hover{
   }
   #tlist{
     width:40vw !important;
+    display: inline-block !important;
   }
 }
