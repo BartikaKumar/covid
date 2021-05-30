@@ -164,8 +164,10 @@ body {
     text-align:center;
     padding-top:50px;
     padding-bottom:50px;
-    display:flex;
-    flex-direction: column;
+}
+#content{
+  display:flex;
+  flex-direction: column;
 }
 .alt{
     background:linear-gradient(bottom left,#182848,#4b6cb7,#182848);
@@ -462,7 +464,7 @@ select:hover{
     overflow:hidden;
 }
 @media (min-width:800px){
-  .section{
+  #content{
     flex-direction: row;
   }
   #head{
