@@ -210,7 +210,6 @@ body {
     display:flex;
     flex-direction:column;
     width:var(--viewportWidth);
-    background: red;
     justify-content: space-between;
 }
 #symptom{
