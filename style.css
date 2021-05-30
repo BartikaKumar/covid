@@ -511,4 +511,9 @@ select:hover{
     width:40vw !important;
     display: inline-block !important;
   }
+  #symptoms{
+    width: 40vw !important;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
 }
