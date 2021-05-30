@@ -500,8 +500,7 @@ select:hover{
   #section6 #content{
     flex-direction: column !important;
   }
-  #items{
-    display:flex;
+  #items>a>div{
     align-items: center;
   }
 }
