@@ -171,6 +171,7 @@ body {
   justify-content: center;
   align-items: center;
   width:var(--viewportWidth);
+  background: yellow;
 }
 .alt{
     background:linear-gradient(bottom left,#182848,#4b6cb7,#182848);
