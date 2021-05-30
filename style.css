@@ -468,6 +468,7 @@ select:hover{
   #content{
     display:flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   #head{
     background: url("https://i.ibb.co/pJzqRJq/fusion-medical-animation-rnr8-D3-FNUNY-unsplash.jpg");
